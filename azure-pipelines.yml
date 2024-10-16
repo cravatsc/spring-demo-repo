@@ -13,7 +13,7 @@ steps:
 - task: Gradle@3
   inputs:
     gradleWrapperFile: 'gradlew'  # Path to your Gradle wrapper
-    tasks: 'build'  # Replace with the tasks you want to run
+    tasks: 'install'  # Replace with the tasks you want to run
     options: '-Xmx3072m' 
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'  # Replace with your JDK version
